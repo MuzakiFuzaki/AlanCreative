@@ -1,0 +1,219 @@
+/* Navbar*/
+.navbar{
+    position: relative;
+    z-index: 10;
+}
+.navbar-brand{
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(image/Gambar1.png);
+    background-size: cover;
+    height: 1079px;
+    width: 100%;
+    text-align: center;
+    position: absolute ;
+   
+}
+
+.jumbotron .display-4{
+    color: white;
+    margin-top: 160px;
+    font-weight: bold;
+    font-family: Open Sans;
+
+}
+
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron .img{
+    size: 20px;
+    
+    
+}
+
+.rows1 .nama{
+    margin-left: -120px;
+}
+.tx{
+    text-align: justify; 
+}
+.back{
+    background-color: black;
+}
+
+.nama{
+    color: #3498DB;
+    font-size: 18px;
+    font-family: open-sans;
+    text-align: center;
+    margin-left: -40px;
+    font-weight: bold;
+
+}
+.container .img2{
+    position:absolute;
+    margin-top: 140px;
+    margin-right: -2px;
+    z-index: 1;
+}
+.container .img{
+    position: absolute;
+    margin-top: 132px;
+    margin-right:0px;
+    margin-left: -3px;
+    z-index: 2;
+}
+
+.jumbotron .lead{
+    color: white;
+    font-family: Open Sans;
+    size: 18px;
+    font-weight: semi bold;
+    text-align: center;
+}
+
+.navbarbtn .btn{
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: semi-bold;
+    font-family: open-sans;
+    background-color: #3498DB;
+    border-radius: 30px;                         
+    height: 65px;
+    width: 710px;
+    margin-left: 410px;
+}
+
+.tentang{
+    color:black;
+    font-size: 32px;
+    font-family: open-sans;
+    text-align: center;
+    padding-left: 30px;
+    font-weight: bold;
+    margin-top: 160px;
+}
+.row .col-lg{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.row{
+    font-family: open-sans;
+    font-size: 18px;
+    color: white;
+
+}
+
+.rows1, .rows2 {
+    color: black;
+    
+
+}
+
+.g1, .g2{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.g1{
+    margin-right: 35px;
+    
+}
+
+.rows1{
+    margin-right: 80px;
+    margin-top: 200px;
+}
+
+.rows2{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.we{
+    background-color: #F7F5F7;
+    margin-top: 1150px;
+    width: 100%;
+    height: 650px;
+}
+
+
+.container .info-panel{
+    background-color:#2ECC71;
+    height: 352px;
+    margin-top: 910px;
+    position: absolute;
+    z-index: 10;
+    border-top-left-radius: 20px;
+    border-top-right-radius: -20px ;
+    transform: skewY(-2deg);
+
+}
+
+.col-lg .s2,.s3{
+    transform: skewY(2deg);
+    
+    margin-top: 12px;
+}
+.col-lg .s1{
+    margin-top: 20px;
+    transform: skewY(1deg);
+}
+
+.col-lg .s2{
+    margin-top: 20px;
+}
+.col-lg .s3{
+    margin-top: 30px;
+}
+.nav-item{
+    font-family: segoe UI;
+    font-size: 20px;
+}
+
+/* utility */
+
+
+/* Desktop version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color:#FFFFFF !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+    }
+
+.nav-link:hover::after{
+       content: '';
+       display: block;
+       margin-right: 3px solid #0b63dc;
+       border-bottom: 3px solid #0b63dc;
+       width: 50%;
+       margin: auto;
+       padding-bottom: 5px;
+
+   }
+
+.jumbotron{
+       margin-top: -125px;
+   }
+ 
+
+   /* testimonial */
+.testimonial{
+       margin-top: 120px;
+       height: 174px;
+       
+   }
+
+
+ }
